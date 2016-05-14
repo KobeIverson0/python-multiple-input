@@ -1,5 +1,4 @@
 stopword = ''
-str = ''
+string = ''
 for line in iter(raw_input, stopword):
-  str += line + '\n'
-  
+  string += line + '\n'
