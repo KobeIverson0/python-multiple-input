@@ -1,6 +1,9 @@
-while True:
-  try:
-    (x, y) = (int(x) for x in raw_input().split())
-    print x + y
-  except EOFError:
-    break
+judge = True
+a = []
+while judge:
+  text = raw_input()
+  if text == '':
+    judge = False
+  else:
+    a.append(text)
+    
